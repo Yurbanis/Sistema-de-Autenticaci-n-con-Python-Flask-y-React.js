@@ -1,0 +1,21 @@
+/* 
+    General Styles used on every website (Don't Repeat Yourself)
+*/
+
+
+
+.colorBoton {
+    background-color: #E74C25;
+    border-color: #E74C25;
+    margin-left: 40%;
+    width: 100px;
+  }
+  
+  
+  .boderFomulario {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d4411d;
+  }
