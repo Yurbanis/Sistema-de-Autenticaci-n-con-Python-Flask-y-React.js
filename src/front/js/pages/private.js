@@ -15,7 +15,7 @@ const Private = () => {
 
   useEffect(() => {
 
-    if (localStorage.getItem("email")) {
+    if (localStorage.getItem("user")) {
         setColor("primary");
         setTexto("usuario Autorizado");
         setstatusError(true);

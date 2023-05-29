@@ -69,14 +69,7 @@ def create_user():
     return jsonify({'message': 'User created successfully', 'email': email }), 201
 
 
-@user_api.route('/private', methods=['GET'])
-@jwt_required()
-def get_token():
-    current_user_id = get_jwt_identity()
-    if current_user_id is None:
-        return jsonify({'error': 'Authentication required'}), 401
-    else:
-        return jsonify({'message': 'User Authentication' }), 200
+
 
 
    
